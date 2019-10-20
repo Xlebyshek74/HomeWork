@@ -98,7 +98,7 @@
       </div>
     </div>
     <div class="col-md-12">
-    <a href="javascript:Spoiler();" class="link_spoiler enter" id="linkSpoiler" style="font-size:18px;color:#444">Подробнее</a>
+    <a href="javascript:Spoiler();" class="link_spoiler enter" id="linkSpoiler" style="font-size:18px;color:#444">Кликните сюда, чтобы узнать меня подробнее</a>
     <div id="contentSpoiler" style="display: none; font-size:18px;" class="enter">
   	<p>Еще в школе заинтересовался веб-программированием, изучил HTML и CSS. Потом в универе начал изучать PHP и Python, был опыт
     в разработке веб-приложения на фреймворке Yii2. Также в универе изучал C++ и учавствовал в спортивном программировании.
@@ -114,7 +114,7 @@ function Spoiler() {
 	var text = document.getElementById("linkSpoiler");
 	if(ele.style.display == "block") {
     		ele.style.display = "none";
-		text.innerHTML = "Подробнее";
+		text.innerHTML = "Кликните сюда, чтобы узнать меня подробнее";
   	}
 	else {
 		ele.style.display = "block";
